@@ -32,7 +32,7 @@ print(r)
 
 4.#palindrome
 
-# palindrome
+
 
 def palindrome(n):
     if n==n[::-1]:
