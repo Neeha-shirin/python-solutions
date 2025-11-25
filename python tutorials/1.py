@@ -72,7 +72,7 @@ def number():
 r=number()
 print(r)
 
-#counting vowels 
+8#counting vowels 
 def counting(n):
     vowels="aeiou"
     count=0
