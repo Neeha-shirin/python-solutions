@@ -1,0 +1,33 @@
+calculatotr //
+
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return (a-b)
+    
+def mul(a,b):
+    return a*b
+def div(a,b):
+    return a/b
+    
+    
+choice=input("choose..+,-,*,/")
+
+a=int(input("enter the numkber"))
+b=int(input("enter the numkber"))
+
+
+if choice=="+":
+    print(a+b)
+    
+elif choice=="-":
+    print(a-b)
+    
+elif choice=="*":
+    print(a*b)
+    
+elif choice=="/":
+    print(a/b)
+    
+else:
+    print("invalid")
