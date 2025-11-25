@@ -44,3 +44,13 @@ def palindrome(n):
 r=palindrome("neeha")
 print(r)
 
+5 #reverse
+def reverse(n):
+     rev=n[::-1]
+     return rev
+    
+r=reverse("hello")
+print(r)
+
+
+
