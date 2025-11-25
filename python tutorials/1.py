@@ -72,6 +72,17 @@ def number():
 r=number()
 print(r)
 
+#counting vowels 
+def counting(n):
+    vowels="aeiou"
+    count=0
+    for ch in n:
+        if ch in vowels:
+            count=count+1
+    return count
+r=counting("neeeha")
+print(r)
+
 
 
 
