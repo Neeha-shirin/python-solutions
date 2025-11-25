@@ -84,5 +84,24 @@ r=counting("neeeha")
 print(r)
 
 
+9. #multiplication table 
+def mul_table(n):
+    for i in range (1,11):
+        print(n, "x", i,"=", i*n)
+        
+mul_table(6)
+
+
+10.#factorial
+def factorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact=fact*i
+        
+    return fact 
+r=factorial(5)
+print(r)
+
+
 
 
