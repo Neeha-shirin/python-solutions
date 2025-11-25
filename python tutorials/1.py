@@ -61,6 +61,16 @@ def num():
 r=num()
 print(r)
 
+7.
+def number():
+    result=[]
+    for i in range(1,100):
+        if i%2==0:
+            result.append(i)
+    return result
+        
+r=number()
+print(r)
 
 
 
