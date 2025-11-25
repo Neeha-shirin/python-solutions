@@ -1,4 +1,4 @@
-# cheak whather the number is odd or even
+1# cheak whather the number is odd or even
      
 def oddeven(num):
     if num % 2 ==0:
@@ -11,7 +11,7 @@ result=oddeven(5)
 print(r)
 
 
-# counting length 
+2# counting length 
 
 
 def length(n):
@@ -19,3 +19,13 @@ def length(n):
     
 r=length("neeha")
 print(r)
+
+3# swapping
+
+def swap(a, b):
+    a, b = b, a
+    return a, b
+
+r = swap(3, 6)
+print(r)
+
