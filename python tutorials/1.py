@@ -52,5 +52,16 @@ def reverse(n):
 r=reverse("hello")
 print(r)
 
+6.#print numbers from 1 to 50
+def num():
+        result=[]
+        for i in range(1,51):
+            result.append(i)
+        return result
+r=num()
+print(r)
+
+
+
 
 
