@@ -2,10 +2,20 @@
      
 def oddeven(num):
     if num % 2 ==0:
-        print("even")
+        return "even"
 
     else:
-        print("odd")
+       return "odd"
 
-n=int(input("enter the number"))
-oddeven(n)
+result=oddeven(5)
+print(r)
+
+
+# counting length 
+
+
+def length(n):
+    return len(n)
+    
+r=length("neeha")
+print(r)
