@@ -103,5 +103,16 @@ r=factorial(5)
 print(r)
 
 
+11.#sum of n numbers
+def sum_of_numbers(n):
+    
+    s=0
+    for i in range(1,n+1):
+        s=s+1
+    return s
+print(sum_of_numbers(5))
+        
+
+
 
 
