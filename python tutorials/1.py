@@ -29,3 +29,18 @@ def swap(a, b):
 r = swap(3, 6)
 print(r)
 
+
+4.#palindrome
+
+# palindrome
+
+def palindrome(n):
+    if n==n[::-1]:
+        return "palindrome"
+        
+    else:
+        return "not palindrome"
+        
+r=palindrome("neeha")
+print(r)
+
