@@ -77,6 +77,24 @@ item=int(input("enter the value ="))
 print (find(lst,item))
 
 
+decorator. # using decorator 
+def show_result(func):      # decorator
+    def wrapper(a, b):
+        print("Adding numbers...")
+        result = func(a, b)
+        print("Result is:", result)
+        return result
+    return wrapper
+
+
+@show_result
+def sumof(a, b):
+    c = a + b
+    return c
+
+print(sumof(3, 5))
+
+
 
 
 
