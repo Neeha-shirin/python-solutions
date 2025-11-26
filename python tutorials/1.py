@@ -61,7 +61,7 @@ def num():
 r=num()
 print(r)
 
-7.
+7.#print from 1 to 100 even numbers
 def number():
     result=[]
     for i in range(1,100):
