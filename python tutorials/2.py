@@ -77,7 +77,7 @@ item=int(input("enter the value ="))
 print (find(lst,item))
 
 
-decorator. # using decorator 
+7.decorator. # using decorator 
 def show_result(func):      # decorator
     def wrapper(a, b):
         print("Adding numbers...")
@@ -93,6 +93,26 @@ def sumof(a, b):
     return c
 
 print(sumof(3, 5))
+
+
+8. count the letters in string 
+
+def count(n):
+    
+    s={}
+    for ch in n:
+        if ch in s:
+            s[ch]=s[ch]+1
+        else:
+            s[ch]=1
+            
+    return s
+print(count("apple"))
+
+
+9. cheaking if key exist in /not 
+
+
 
 
 
