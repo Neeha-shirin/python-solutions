@@ -113,6 +113,14 @@ print(count("apple"))
 9. cheaking if key exist in /not 
 
 
+marks = {"math": 90, "science": 85}
+
+if "math" in marks:
+    print("Key found")
+else:
+    print("Key not found")
+
+
 
 
 
