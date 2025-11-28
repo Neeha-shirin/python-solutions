@@ -5,7 +5,7 @@ def oddeven(num):
         return "even"
 
     else:
-       return "odd"
+       return "odd" 
 
 result=oddeven(5)
 print(r)
